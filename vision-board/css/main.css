@@ -1,0 +1,83 @@
+/**** Body****/
+body{
+    background: #E8E8E8;
+}
+
+#vision-board{
+    margin:50px auto;
+    width: 1200px;
+    height: 850px;
+    background:url("../img/background.png");
+    background-size: cover;
+    overflow: auto;
+    font-family:"montserrat", sans-serif ;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+.block{
+    float: left;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.block span p{
+    background-color: yellow;
+}
+
+.small-block{
+    height: 210px;
+    padding: 20px 40px;
+}
+
+
+.large-block{
+    height: 430px;
+    padding: 60px 30px;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.light-bg{
+    background-color: #FFFFFF;
+}
+
+.dark-bg{
+   background-color: #3B3B3B;
+}
+
+.title{
+    padding-top:45px;
+}
+
+.title p{
+    font-family:"Permanent Marker", cursive;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+.title p span{
+    font-family:"montserrat", sans-serif;
+    font-size: 38px;
+}
+
+.top-padding{
+    padding-top:40px;
+}
+
+.highlight{
+    background: yellow;
+    font-size:18;
+    padding: 5px 15px;
+}
+strong{
+    font-size: 38px;
+    text-transform: none;
+    line-height: 38px;
+}

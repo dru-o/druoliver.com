@@ -1,0 +1,156 @@
+/****** Body ******/
+body{
+    width: 1200px;
+    margin:0 auto;
+    color: #3366cc;
+    font-family: "Montserrat", sans-serif;
+}
+
+/***** Header *****/
+header{
+    background-image:url(../img/desk.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+header h1{
+    color:#3366cc;
+    font-size: 60px;
+    padding: 30px 0 0 50px;
+    clear: both;
+}
+header p{
+    float: left;
+    color:#3366cc;
+    font-size: 20px;
+    padding: 20px;
+
+}
+header nav{
+    float: right;
+
+}
+header nav li{
+    padding: 25px;
+    display: inline-block;
+}
+
+header a{
+    text-decoration: none;
+    color: #3366cc;
+}
+
+/***** Portfolio ********/
+#portfolio{
+    clear: both;
+}
+#portfolio h2{
+    font-size: 40px;
+    text-align: left;
+    margin: 0;
+    padding: 30px 0 30px 140px;
+    background-color:#d6e0f5;
+}
+.pro{
+    float: left;
+    height: 300px;
+    width: 600px;
+    text-align: left;
+    background-color:#d6e0f5;
+}
+.pro h3{
+    font-size: 30px;
+    background-color: white;
+    color: #3366cc;
+    text-align: center;    
+    margin: 0;
+}
+.pro p{
+    font-size: 18px;
+    line-height: 26px;
+    padding:20px 0 0 20px;
+    color:#3366cc;
+    
+
+}
+.pro span{
+    font-weight: 700;
+}
+
+/***** About******/
+#about{
+    clear: both;
+    background-image:url(../img/wood4.jpg);
+    background-size:cover ;
+}
+#about h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 30px;
+    
+}
+
+#about p{
+    font-size: 20px;
+    line-height: 30px;
+    padding-left:50px;
+    font-weight: 500;
+    
+}
+
+#about ul{
+    font-size: 25px;
+    line-height: 55px;
+    padding-left: 70px;
+}
+
+ .ab h3{
+    font-size:28px;
+    padding:30px 0 60px 700px;
+    margin: 0;
+}
+
+/***** Contact ******/
+#contact h1{
+    font-size: 36px;
+    margin: 0px;
+    padding: 80px 0 20px 0;
+    background-color:#d6e0f5;
+    text-align: center;
+    
+}
+.highlight{
+    background-color: white;
+    padding: 15px;
+}
+.connect{
+    float: left;
+    height: 200px;
+    width:600px;
+    text-align: center;
+    background-color:#d6e0f5;
+}
+.connect p{
+    font-size: 18px;
+    line-height: 25px;
+}
+.connect h2{
+    font-size: 30px;
+    line-height: 40px;
+   
+}
+.connect li{
+    display: inline-block;
+}
+.connect ul{
+    margin: 0;
+    padding: 0;
+}
+.connect a{
+    color: #3366cc;
+    text-decoration: none;
+}
+.social h2{
+    text-align: center;
+}
