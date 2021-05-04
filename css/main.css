@@ -1,156 +1,402 @@
-/****** Body ******/
+/****** General Styles ******/
+html{
+    font-size: 16px;
+}
+
 body{
-    width: 1200px;
-    margin:0 auto;
-    color: #3366cc;
-    font-family: "Montserrat", sans-serif;
+    font-size: 1em;
+    text-align: left;
+    color:#e2e3ed;
+    font-family:"Raleway", sans-serif;
 }
 
-/***** Header *****/
+ul, 
+ol {
+ margin: 0;
+ padding: 0;
+}
+
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #2a423a;
+}
+img{
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.875em;
+    font-weight: bold;
+    margin: 0;
+  }
+
+  h3{
+      font-size: 1.125em;
+      margin: 20px 0;
+      font-weight: bold;
+      text-align: center;
+  }
+
+p{
+    font-size: .875em;
+    line-height:1.285em;
+}
+.content-wrapper{
+    width: 90%;
+}
+
+/*****  Base Header and footer *****/
+header,
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap; 
+}
+
 header{
-    background-image:url(../img/desk.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 600px;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    text-align: center;
+    background-color:#2a423a;
 
-}
-header h1{
-    color:#3366cc;
-    font-size: 60px;
-    padding: 30px 0 0 50px;
-    clear: both;
-}
-header p{
-    float: left;
-    color:#3366cc;
-    font-size: 20px;
-    padding: 20px;
-
-}
-header nav{
-    float: right;
-
-}
-header nav li{
-    padding: 25px;
-    display: inline-block;
 }
 
 header a{
+    color:#e2e3ed;
+}
+
+header p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  
+}
+
+header nav{
+ width:100%;
+ font-size: .875em;
+ font-weight: 500;
+ padding-bottom: 10px;
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-around;
     text-decoration: none;
-    color: #3366cc;
+}
+
+header nav li{
+font-size: .875em;
+text-decoration: none;
+list-style: none;
+
+}
+
+footer{
+    text-align: center;
+    flex-direction: column;
+    background-color:#2a423a;
+   
+
+}
+
+footer h3{
+    padding: 14px;
+    margin: 10px;
+    font-size: 1.225em;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer .social-icons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 30px;
+
+}
+
+footer .social-icons p{
+    background-color: #e2e3ed;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .social-icons p i{
+    font-size: 1.3125em;
+}
+footer .social{
+    padding-top: 20px;
+}
+
+address a{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    color: #e2e3ed;
+}
+
+footer .content-wrapper{
+    width: 55%;
+}
+
+footer .copyright{
+    margin:20px 0;
+}
+/************** Hero Area *****************/
+
+.hero-area{
+    background-image:url(../img/hero1.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    min-height: 400px;
+   
+}
+
+.hero-area .content-wrapper{
+    margin: 0;
+}
+
+.hero-area h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#e2e3ed;
+    padding-top: 120px;
+    font-size: 2em;
 }
 
 /***** Portfolio ********/
 #portfolio{
-    clear: both;
-}
-#portfolio h2{
-    font-size: 40px;
-    text-align: left;
-    margin: 0;
-    padding: 30px 0 30px 140px;
-    background-color:#d6e0f5;
-}
-.pro{
-    float: left;
-    height: 300px;
-    width: 600px;
-    text-align: left;
-    background-color:#d6e0f5;
-}
-.pro h3{
-    font-size: 30px;
-    background-color: white;
-    color: #3366cc;
-    text-align: center;    
-    margin: 0;
-}
-.pro p{
-    font-size: 18px;
-    line-height: 26px;
-    padding:20px 0 0 20px;
-    color:#3366cc;
-    
-
-}
-.pro span{
-    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    background-color:#527158;
 }
 
-/***** About******/
+#portfolio .pro img{
+    width: 100%;
+}
+
+#portfolio a{
+    color: #70a57a;
+}
+
+#portfolio p{
+    text-align:center ;
+}
+ #portfolio h4{
+     text-align: center;
+ }
+
+/****************** About *****************/
 #about{
-    clear: both;
-    background-image:url(../img/wood4.jpg);
-    background-size:cover ;
+    background-color:#70a57a;
+    padding: 20px;
+    font-family:"Comic Neue", cursive;
 }
-#about h2{
-    font-size: 40px;
-    text-align: center;
-    padding-top: 30px;
-    
+
+#about .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: column;
 }
 
 #about p{
-    font-size: 20px;
-    line-height: 30px;
-    padding-left:50px;
-    font-weight: 500;
-    
+    padding-left: 20px;
+}
+
+.ab li{
+    list-style: none;
+}
+
+
+
+/************* Tablet styles *************/
+@media only screen and (min-width: 768px) {
+
+header{
+    justify-content: space-around;
+ }
+
+header .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header .dru{
+    width: 30%;
+    padding-top: 10px;
+}
+
+header nav{
+    width: 30%;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+
+/********** Hero Area ********/
+.hero-area h1{
+    font-size: 2.225em;
+}
+
+
+/*************** POrtfolio Styles **********/
+#portfolio .pro img{
+    width: 100%;
+}
+
+#portfolio h2{
+    text-align: left;
+    width: 100%;
+    padding:20px;
+    font-size: 1.5em;
+}
+#portfolio h3{
+    text-align: center;
+}
+
+#portfolio h4{
+    margin: 0;
+    text-align: left;
+}
+
+#portfolio p{
+    text-align: left;
+}
+
+/************** About section ************/
+
+#about .content-wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#about h2{
+    font-size: 2.225em;
+    width: 100%;
+    padding-bottom: 30px;
 }
 
 #about ul{
-    font-size: 25px;
-    line-height: 55px;
-    padding-left: 70px;
+    font-size: 1.125em;
 }
 
- .ab h3{
-    font-size:28px;
-    padding:30px 0 60px 700px;
-    margin: 0;
+#about li{
+    font-size: 1.250em;
 }
 
-/***** Contact ******/
-#contact h1{
-    font-size: 36px;
-    margin: 0px;
-    padding: 80px 0 20px 0;
-    background-color:#d6e0f5;
-    text-align: center;
+.ab{
+    width: 40%;
+}
+
+.ab p{
+    line-height: 1.5em;
+    font-size: 1.250em;
+}
+
+.image{
+    width: 60%;
     
 }
-.highlight{
-    background-color: white;
-    padding: 15px;
+
 }
-.connect{
-    float: left;
-    height: 200px;
-    width:600px;
+/***************** Desktop styles**********/
+@media only screen and (min-width: 1200px) {
+    
+header{
+    font-size: 1.325em;
+}
+
+footer h3{
+    font-size: 2em;
+}
+
+footer p{
+    line-height: 1.5em;
+    font-size: 1.125em;
+}
+
+/*************** Hero Sytles *************/
+.hero-area h1{
+    font-size: 3em;
+}
+
+/*************** POrtfolio Styles **********/
+#portfolio .content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
     text-align: center;
-    background-color:#d6e0f5;
+    padding-bottom: 30px;
 }
-.connect p{
-    font-size: 18px;
-    line-height: 25px;
+
+.pro{
+    flex-basis: 40%;
+    font-size: 1.125em;
+    padding-left: 30px;
 }
-.connect h2{
-    font-size: 30px;
-    line-height: 40px;
-   
+
+.pro img{
+    padding-top: 10px;
 }
-.connect li{
-    display: inline-block;
+.pro h3{
+    font-size: 1.5em;
 }
-.connect ul{
-    margin: 0;
+
+#portfolio h2{
+    font-size: 2.325em;
+}
+
+/************ About section *******************/
+.image{
+    width: 45%;
+    
+}
+
+#about{
     padding: 0;
 }
-.connect a{
-    color: #3366cc;
-    text-decoration: none;
+
+#about p{
+    padding: 0;
 }
-.social h2{
-    text-align: center;
+
+#about h2{
+    padding: 20px 0 0 20px;
+}
+
+#about li{
+    display: inline;
+    padding-right: 40px;
+}
+
+#about ul{
+    padding: 30px;
+}
+
 }
