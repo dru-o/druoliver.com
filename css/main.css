@@ -225,6 +225,7 @@ footer .copyright{
 
 #about p{
     padding-left: 20px;
+    font-weight: 600;
 }
 
 .ab li{
@@ -236,6 +237,14 @@ footer .copyright{
     
 }
 
+/******* Resume page ***********/ 
+.resume{
+    background-color: #527158;
+}
+
+.title p{
+    margin: 0;
+}
 
 /************* Tablet styles *************/
 @media only screen and (min-width: 768px) {
