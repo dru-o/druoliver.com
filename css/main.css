@@ -240,11 +240,37 @@ footer .copyright{
 /******* Resume page ***********/ 
 .resume{
     background-color: #527158;
+    padding: 25px;
+    line-height: 1.5em;
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+}
+.resume h2{
+    margin: 20px 0 20px 0;
 }
 
+
+
 .title p{
-    margin: 0;
+   padding-bottom: 50px;
 }
+
+.title h1{
+    margin-top: 0;
+}
+
+.title a {
+    color:#e2e3ed ;
+}
+
+span{
+    font-size: 1.5em;
+}
+
+
+
+    
 
 /************* Tablet styles *************/
 @media only screen and (min-width: 768px) {
