@@ -237,57 +237,15 @@ footer .copyright{
     
 }
 
-/******* Resume page ***********/ 
-.resume{
-    background-color: #527158;
-    padding: 25px;
-    line-height: 1.5em;
-    display: flex;
-    justify-content:center;
-    flex-flow: column;
-}
-.resume h2{
-    margin: 20px 0 20px 0;
-    color: #70a57a;
-    font-size: 1.5em;
-}
-.resume h1{
-    color: #70a57a;
-    font-size: 1.5em;
-}
+/******* Shop page ***********/ 
 
-.resume p{
-    font-size: 1em;
+.shop{
+    background-color:#527158;
+    
 }
-
-
-
-.title p{
-   padding-bottom: 50px;
-}
-
-.title h1{
-    margin-top: 0;
-    color: #70a57a;
-    font-size: 1.5em;
-}
-
-.title a {
-    color:#e2e3ed ;
-}
-
-span{
-    font-size: 1.5em;
-}
-
-input[type=button]{
-    background-color: #2a423a;
-    color: #e2e3ed;
-    border: none;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.125em;
-    font-weight:bold;
+.shop h3{
+    margin: 0;
+    font-size: 2em;
 }
 
 
@@ -385,7 +343,7 @@ header nav{
     
 }
 
-/******* Resume *********/
+/******* Shop Page *********/
 
 
 }
@@ -458,22 +416,7 @@ footer p{
     padding: 20px 0 0 20px;
 }
 
-/*********** Resume *************/
-.resume{
-    display: flex;
-    flex-flow: row wrap;
-}
-.main{
-    width: 55%;
-    margin: 20px;
-   
-}
-.side{
-    width: 35%;
-    margin:15px 0 0 30px;
-}
-.button{
-    margin-top: 20px;
-}
+/*********** Shop Page *************/
+
 
 }
