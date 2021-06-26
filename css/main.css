@@ -245,7 +245,21 @@ footer .copyright{
 }
 .shop h3{
     margin: 0;
+    padding-top: 20px;
     font-size: 2em;
+}
+
+img{
+    width: 30%;
+    height: 50%;
+    margin: 20px;
+    border: 6px solid #70a57a;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
 }
 
 
