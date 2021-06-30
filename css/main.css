@@ -180,6 +180,45 @@ footer .copyright{
     font-size: 2em;
 }
 
+/************ Skills **************/
+.skills{
+    background-color:#e2e3ed;  
+    color:#2a423a ;
+}
+
+.skills .content-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 100%;
+    
+    
+  
+}
+.skills h2{
+   
+    padding: 20px 0 20px 20px;
+}
+
+.skills p{
+    margin: 0;
+    padding: 20px 0 20px 0;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.skill-item{
+    width: 40%;
+    text-align: center;
+}
+
+.skill-item .fab,
+.skill-item .fas {
+  font-size: 3.5em;
+}
+
+
+
 /***** Portfolio ********/
 #portfolio{
     display: flex;
@@ -234,7 +273,13 @@ footer .copyright{
 
 .image{
     width: 100%;
+    text-align: center;
     
+}
+.image a{
+    background-color:#2a423a;
+    color: #e2e3ed;
+    padding: 10px;
 }
 
 /******* Shop page ***********/ 
@@ -249,19 +294,30 @@ footer .copyright{
     font-size: 2em;
 }
 
-img{
-    width: 30%;
-    height: 50%;
-    margin: 20px;
+.jigs img{
+    margin: 18px;
     border: 6px solid #70a57a;
 }
 
-figure{
-    display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+.jigs{
+    margin: 0;
 }
 
+.pic{
+    display: flex;
+    justify-content:center;
+    flex-flow: row wrap;
+    margin: 0;
+    text-align: center;
+    padding: 20px;
+}
+
+.jigs figure{
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
 
 
     
@@ -299,6 +355,14 @@ header nav{
 /********** Hero Area ********/
 .hero-area h1{
     font-size: 2.225em;
+}
+
+/*********** Skills ****************/
+.skills .content-wrapper{
+    justify-content: space-evenly;
+}
+.skill-item{
+    width: 0;
 }
 
 
@@ -377,6 +441,7 @@ footer p{
     font-size: 1.125em;
 }
 
+
 /*************** Hero Sytles *************/
 .hero-area h1{
     font-size: 3em;
@@ -431,6 +496,8 @@ footer p{
 }
 
 /*********** Shop Page *************/
-
+.pic{
+width: 33%;   
+}
 
 }
