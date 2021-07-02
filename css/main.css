@@ -12,7 +12,7 @@ body{
 
 ul, 
 ol {
- margin: 0;
+ margin: 0 auto;
  padding: 0;
 }
 
@@ -113,7 +113,7 @@ footer h3{
 }
 
 footer p{
-    margin: 0;
+    margin: 0 auto;
 }
 
 footer .social-icons{
@@ -168,7 +168,7 @@ footer .copyright{
 }
 
 .hero-area .content-wrapper{
-    margin: 0;
+    margin: 0 auto;
 }
 
 .hero-area h1{
@@ -202,7 +202,7 @@ footer .copyright{
 }
 
 .skills p{
-    margin: 0;
+    margin: 0 auto;
     padding: 20px 0 20px 0;
     font-size: 1em;
     font-weight: 700;
@@ -294,7 +294,7 @@ footer .copyright{
     
 }
 .shop h3{
-    margin: 0;
+    margin: 0 auto;
     padding-top: 20px;
     font-size: 2em;
 }
@@ -305,20 +305,20 @@ footer .copyright{
 }
 
 .jigs{
-    margin: 0;
+    margin: 0 auto;
 }
 
 .pic{
     display: flex;
     justify-content:center;
     flex-flow: row wrap;
-    margin: 0;
+    margin: 0 auto;
     text-align: center;
     padding: 20px;
 }
 
 .jigs figure{
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
@@ -497,10 +497,12 @@ footer p{
 
 #about{
     padding: 0;
+    margin: 0 auto;
 }
 
 #about p{
     padding: 0;
+    margin:0 auto;
 }
 
 #about h2{
