@@ -22,6 +22,7 @@ a{
     color: #2a423a;
     font-weight: bolder;
 }
+
 img{
     width: 100%;
 }
@@ -45,6 +46,7 @@ p{
 }
 .content-wrapper{
     width: 90%;
+    margin: 0 auto;
 }
 
 /*****  Base Header and footer *****/
@@ -253,7 +255,7 @@ footer .copyright{
 #about{
     background-color:#70a57a;
     padding: 20px;
-    font-family:"Comic Neue", cursive;
+    font-family: 'Heebo', sans-serif;
 }
 
 #about .content-wrapper{
@@ -277,15 +279,14 @@ footer .copyright{
     text-align: center;
     
 }
-.image a{
+input{
     background-color:#2a423a;
     color: #e2e3ed;
-    padding: 10px;
+    padding: 12px;
+    border-radius: 4px;
 }
 
-.button{
-    padding: 20px;
-}
+
 
 /******* Shop page ***********/ 
 
@@ -394,13 +395,9 @@ header nav{
 }
 
 #portfolio h4{
-    margin: 0;
-    text-align: left;
+    margin: 0 auto;
 }
 
-#portfolio p{
-    text-align: left;
-}
 
 /************** About section ************/
 
@@ -485,6 +482,15 @@ footer p{
 #portfolio h2{
     font-size: 2.325em;
 }
+
+#portfolio p{
+    text-align: left;
+}
+
+#portfolio h4{
+    text-align: left;
+}
+
 
 /************ About section *******************/
 #about .content-wrapper{
